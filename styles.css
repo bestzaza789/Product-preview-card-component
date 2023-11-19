@@ -1,0 +1,76 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .attribution {
+    position: absolute;
+    bottom: 0px;
+    left: 720px;
+  }
+  .container {
+    width: 720px;
+    height: 540px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-family: "Kodchasan", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+}
+.Product-image {
+  font-family: ;
+  width: 360px;
+}
+.product {
+  padding: 30px;
+  position: relative;
+}
+header {
+  color: hsl(212, 21%, 14%);
+  margin: 10px 0px;
+}
+.name-product {
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+  padding: 10px 0px;
+}
+.product-detail {
+  padding: 10px 0px;
+}
+.price {
+  font-size: 50px;
+  padding: 10px 0px;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+}
+.discount {
+  position: absolute;
+  bottom: 180px;
+  right: 80px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+button {
+  width: 100%;
+  height: 50px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+button:hover {
+  background-color: hsl(158, 36%, 50%);
+}
+.cart-icon {
+  padding: 0px 10px;
+}
