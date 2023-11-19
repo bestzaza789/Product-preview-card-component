@@ -5,26 +5,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  .attribution {
-    position: absolute;
-    bottom: 0px;
-    left: 720px;
-  }
-  .container {
-    width: 720px;
-    height: 540px;
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    border-radius: 20px;
-    overflow: hidden;
-    font-family: "Hanken Grotesk", sans-serif;
-    font-family: "Kodchasan", sans-serif;
-    font-family: "Montserrat", sans-serif;
-    font-family: "Roboto", sans-serif;
-  }
 }
+.attribution {
+  position: absolute;
+  bottom: 0px;
+  left: 720px;
+}
+.container {
+  width: 720px;
+  height: 540px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Kodchasan", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
 .Product-image {
   width: 360px;
 }
